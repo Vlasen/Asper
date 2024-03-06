@@ -1,0 +1,333 @@
+{
+	"version": "0.4.0",
+	"root": {
+		"object": {
+			"node": {
+				"contentSize": {
+					"w": 0,
+					"h": 0
+				},
+				"enabled": true,
+				"anchorPoint": {
+					"x": 0,
+					"y": 0
+				},
+				"color": {
+					"r": 255,
+					"g": 255,
+					"b": 255
+				},
+				"opacity": 255,
+				"groupIndex": 0,
+				"colliders": []
+			}
+		},
+		"object_type": "Scene",
+		"children": [
+			{
+				"object": {
+					"contentSize": {
+						"w": 960,
+						"h": 640
+					},
+					"enabled": true,
+					"name": "Canvas",
+					"anchorPoint": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"color": {
+						"r": 252,
+						"g": 252,
+						"b": 252
+					},
+					"opacity": 255,
+					"skewX": 0,
+					"skewY": 0,
+					"groupIndex": 0,
+					"colliders": []
+				},
+				"object_type": "Node",
+				"children": [
+					{
+						"object": {
+							"contentSize": {
+								"w": 0,
+								"h": 0
+							},
+							"enabled": true,
+							"name": "Main Camera",
+							"anchorPoint": {
+								"x": 0.5,
+								"y": 0.5
+							},
+							"color": {
+								"r": 255,
+								"g": 255,
+								"b": 255
+							},
+							"opacity": 255,
+							"skewX": 0,
+							"skewY": 0,
+							"groupIndex": 0,
+							"colliders": []
+						},
+						"object_type": "Node",
+						"children": []
+					},
+					{
+						"object": {
+							"contentSize": {
+								"w": 0,
+								"h": 0
+							},
+							"enabled": true,
+							"name": "Main_Game",
+							"anchorPoint": {
+								"x": 0.5,
+								"y": 0.5
+							},
+							"color": {
+								"r": 255,
+								"g": 255,
+								"b": 255
+							},
+							"opacity": 255,
+							"skewX": 0,
+							"skewY": 0,
+							"groupIndex": 0,
+							"colliders": []
+						},
+						"object_type": "Node",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 1200,
+									"h": 675
+								},
+								"enabled": true,
+								"name": "background",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 31,
+									"g": 31,
+									"b": 31
+								},
+								"opacity": 255,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"spriteFrameName": "Texture/dark bg.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Trimmed"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 1072,
+									"h": 1072
+								},
+								"enabled": true,
+								"name": "Planet3",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"opacity": 255,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"spriteFrameName": "Texture/Planet3.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Trimmed"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 300,
+									"h": 274
+								},
+								"enabled": true,
+								"name": "arrow",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 111,
+									"g": 255,
+									"b": 75
+								},
+								"opacity": 255,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"ignoreContentAdaptWithSize": false,
+							"spriteFrameName": "Texture/arrow.png",
+							"transition": 1
+						},
+						"object_type": "Button",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 112.9722624567956,
+									"h": 50.4
+								},
+								"enabled": true,
+								"name": "New Label",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"opacity": 255,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"fontSize": 40,
+							"labelText": "Nibiru",
+							"horizontalAlignment": "Center",
+							"verticalAlignment": "Center",
+							"overflowType": "None",
+							"enableWrap": true,
+							"fontType": "System",
+							"fontName": "arial"
+						},
+						"object_type": "Label",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	"designResolution": {
+		"w": 960,
+		"h": 640
+	},
+	"resolutionFitWidth": true,
+	"resolutionFitHeight": true,
+	"spriteFrames": [
+		{
+			"name": "Texture/dark bg.png",
+			"texturePath": "creator/Texture/dark bg.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 1200,
+				"h": 675
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 1200,
+				"h": 675
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 1200,
+				"h": 675
+			}
+		},
+		{
+			"name": "Texture/Planet3.png",
+			"texturePath": "creator/Texture/Planet3.png",
+			"rect": {
+				"x": 104,
+				"y": 104,
+				"w": 1072,
+				"h": 1072
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 1280,
+				"h": 1280
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 1072,
+				"h": 1072
+			}
+		},
+		{
+			"name": "Texture/arrow.png",
+			"texturePath": "creator/Texture/arrow.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 300,
+				"h": 274
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 300,
+				"h": 274
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 300,
+				"h": 274
+			}
+		}
+	],
+	"collisionMatrix": [
+		{
+			"value": [
+				true
+			]
+		}
+	]
+}
